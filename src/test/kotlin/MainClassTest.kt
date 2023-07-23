@@ -6,7 +6,7 @@ import org.junit.Test
 class MainClassTest {
     @Test
     fun testGetLocalNumber(){
-        Assert.assertTrue("Returns not number 14!", MainClass().getLocalNumber().equals(14))
+        Assert.assertTrue("Returns not number 14!", MainClass().getLocalNumber() == 14)
     }
 
     @Test
