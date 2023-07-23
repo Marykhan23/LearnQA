@@ -2,16 +2,16 @@ class MainClass {
     private val classNumber = 20
     private val classString = "hello, world"
 
-    public fun getLocalNumber(): Int {
+    fun getLocalNumber(): Int {
         return 14
     }
 
-    public fun getClassNumber(): Int{
+    fun getClassNumber(): Int{
         println("classNumber $classNumber")
         return classNumber
     }
 
-    public fun getClassString(): String{
+    fun getClassString(): String{
         println("classNumber $classNumber")
         return classString
     }
