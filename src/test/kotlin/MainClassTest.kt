@@ -16,8 +16,6 @@ class MainClassTest {
 
     @Test
     fun testGetClassString(){
-        Assert.assertTrue("I coulnd't find \"hello\" in the string", MainClass().getClassString().uppercase().contains("hello".uppercase()))
+        Assert.assertTrue("I coulnd't find \"hello\" in the string", MainClass().getClassString().contains("hello"))
     }
-
-
 }

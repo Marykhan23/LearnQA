@@ -11,7 +11,7 @@ class MainClass {
         return classNumber
     }
 
-    fun getClassString(): String{
+        fun getClassString(): String{
         println("classNumber $classNumber")
         return classString
     }
